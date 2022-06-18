@@ -50,6 +50,29 @@ div#container{
     width: 100%;
     height: 1000px;
     background-color: white;
+    padding: 0% !important;
+}
+
+div#main{
+    margin: auto;
+    width: 90%;
+    height: 1000px;
+}
+
+
+
+.space{
+    padding: 90px;
+}
+
+.deleteDecoration a{
+    text-decoration: none;
+    color: black;
+}
+
+#firstTitleProyects{
+    font-size: 4rem;
+    font-weight: 700;
 }
 
 
