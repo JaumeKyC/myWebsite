@@ -1,0 +1,25 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#name{
+   font-size: 4rem !important;
+    
+}
+
+div#empty{
+    width: 100%;
+    height: 500px;
+}
+
+div#container{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+}
+
+  
+
