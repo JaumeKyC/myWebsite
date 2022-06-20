@@ -72,14 +72,14 @@ div#main{
     font-size: 4rem;
     font-weight: 700;
     padding-bottom: 40px;
-    padding-top: 90px;
+    padding-top: 30px;
 }
 
 .generalTitle{
     font-size: 4rem;
     font-weight: 700;
     padding-bottom: 40px;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 .projectsedit{
@@ -104,6 +104,8 @@ div#main{
 #aboutMeCont{
     background-color: rgba(0, 0, 0, 0.841);
     margin-top: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     color: white;
     height: 500px;
     
