@@ -106,6 +106,7 @@ div#main{
 .technologiescss:hover{
     transition: 200ms;
     font-size: 90px;
+    color: rgba(34,119,255,255);
 }
 .technologiesjs{
     transition: 200ms;
@@ -114,6 +115,7 @@ div#main{
 .technologiesjs:hover{
     transition: 200ms;
     font-size: 90px;
+    color: rgba(247,223,30,255);
 }
 .technologiesphp{
     transition: 200ms;
@@ -122,6 +124,7 @@ div#main{
 .technologiesphp:hover{
     transition: 200ms;
     font-size: 90px;
+    color: rgba(119,123,179,255)
 }
 
 
