@@ -48,7 +48,7 @@ div#empty{
 
 div#container{
     width: 100%;
-    height: 2450px;
+    height: 4000px;
     background-color: white;
     padding: 0% !important;
 }
@@ -56,10 +56,10 @@ div#container{
 div#main{
     margin: auto;
     width: 90%;
-    height: 1700px;
+    height: 4000px;
 }
 #arrowSpace{
-    padding-top: 90px;
+    padding-top: 70px;
     font-size:80px
 }
 
@@ -68,17 +68,17 @@ div#main{
     color: black;
 }
 
-#firstTitleProyects{
+#projects{
     font-size: 4rem;
     font-weight: 700;
-    padding-bottom: 40px;
-    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 90px;
 }
 
-.generalTitle{
+#aboutMe{
     font-size: 4rem;
     font-weight: 700;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     /* padding-top: 80px; */
 }
 
@@ -89,9 +89,43 @@ div#main{
     height: 300px;
 }
 
-.technologies{
+
+.technologieshtml{
+    transition: 200ms;
     font-size: 80px;
 }
+.technologieshtml:hover{
+    transition: 200ms;
+    font-size: 90px;
+    color: rgba(228,77,38,255);
+}
+.technologiescss{
+    transition: 200ms;
+    font-size: 80px;
+}
+.technologiescss:hover{
+    transition: 200ms;
+    font-size: 90px;
+}
+.technologiesjs{
+    transition: 200ms;
+    font-size: 80px;
+}
+.technologiesjs:hover{
+    transition: 200ms;
+    font-size: 90px;
+}
+.technologiesphp{
+    transition: 200ms;
+    font-size: 80px;
+}
+.technologiesphp:hover{
+    transition: 200ms;
+    font-size: 90px;
+}
+
+
+
 
 .techLineTop{
     margin-top: 170px;
@@ -103,13 +137,68 @@ div#main{
 
 #aboutMeCont{
     background-color: rgba(0, 0, 0, 0.841);
-    margin-top: 120px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     color: white;
-    height: 500px;
+    
     
 }
+.text-right {
+    text-align: right!important;
+}
+
+#hr3Space{
+margin-top: 150px;
+margin-bottom: 50px;
+}
+
+/* FORM */
+#contactMe{
+    padding-top: 100px;
+}
+
+
+#contactMeTitle{
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.form-control {
+    background-color: #f3f3f3;
+    border: none;
+    /* height: calc(1.5em + 0.75rem + 2px); */
+    margin: 10px;
+    /* font-size: 18px!important; */
+}
+.submit{
+    border: none;
+    height: 75%;
+    margin: 10px;
+    /* font-size: 18px!important; */
+    text-decoration: none!important;
+    background-color: rgba(0, 0, 0, 0.841);
+    color: white;
+    width: 70%;
+    transition: 600ms;
+}
+.submit:hover{
+    border: none;
+    margin: 15px;
+    font-size: 18px!important;
+    text-decoration: none!important;
+    background-color: black;
+    color: white;
+    width: 35%;
+    transition: 500ms;
+    height: 70%;
+    
+    
+}
+
+
 
 
   
