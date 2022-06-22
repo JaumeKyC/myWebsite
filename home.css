@@ -81,7 +81,22 @@ div#main{
     /* padding-top: 80px; */
 }
 
-.projectsedit{
+.projectedit1{
+    background-image: url(img/marmol.jpg);
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center
+}
+
+.projectedit2{
+    background-image: url(img/marmol.jpg);
+    margin: 10px;
+    padding: 80px;
+    height: 300px;
+}
+
+.projectedit3{
     background-image: url(img/marmol.jpg);
     margin: 10px;
     padding: 80px;
