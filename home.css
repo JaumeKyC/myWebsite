@@ -47,7 +47,7 @@ div#empty{
 
 div#container{
     width: 100%;
-    height: 4000px;
+    height: 100%;
     background-color: white;
     padding: 0% !important;
 }
@@ -55,7 +55,7 @@ div#container{
 div#main{
     margin: auto;
     width: 90%;
-    height: 4000px;
+    height: 100%;
 }
 #arrowSpace{
     padding-top: 70px;
@@ -65,6 +65,10 @@ div#main{
 .deleteDecoration a{
     text-decoration: none;
     color: black;
+}
+.deleteDecorationfooter a{
+    text-decoration: none;
+    color: white;
 }
 
 #projects{
@@ -92,15 +96,17 @@ div#main{
 .projectedit2{
     background-image: url(img/marmol.jpg);
     margin: 10px;
-    padding: 80px;
     height: 300px;
+    display: flex;
+    align-items: center
 }
 
 .projectedit3{
     background-image: url(img/marmol.jpg);
     margin: 10px;
-    padding: 80px;
     height: 300px;
+    display: flex;
+    align-items: center
 }
 
 
@@ -157,13 +163,21 @@ div#main{
     margin-top: 130px;
     margin-bottom: 130px;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 25px;
     color: white;
     
     
 }
+
 .text-right {
     text-align: right!important;
+}
+.text-left{
+    text-align: left!important;
+}
+
+.abilities{
+    font-size: 60px;
 }
 
 
@@ -183,6 +197,7 @@ margin-bottom: 50px;
 /* FORM */
 #contactMe{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -224,8 +239,14 @@ margin-bottom: 50px;
     width: 35%;
     transition: 500ms;
     height: 70%;
-    
-    
+}
+
+#footer{
+    background-color: rgba(0, 0, 0, 0.841);
+    color: white;
+    text-align: center;
+    padding: 75px;
+    font-size: small;
 }
 
 
