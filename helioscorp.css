@@ -3,7 +3,7 @@ body{
 }
 
 #header{
-    height: 750px;
+    height: 600px;
    /*  display: flex;
     align-items: center; */
     margin: auto;
@@ -22,14 +22,49 @@ body{
         width: 80%;
         height: 80%;
     }
-/* .arrow{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-} */
 
-/* #login{
-    background-color: rgba(0,80,157,255);
-    height: 500px;
-    margin-top: 100px;
-} */
+
+#main2{
+    height: 1500px;
+    /*  display: flex;
+    align-items: center; */
+    margin: auto;
+    width: 90%;
+}
+
+    #main2 h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 75px;
+    }
+
+    #main2 img{
+        margin-top: 75px;
+        width: 80%;
+        height: 80%;
+    }
+
+
+.crudedit1{
+    background-image: url(img/marmol.jpg);
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center
+}
+
+.crudedit2{
+    background-image: url(img/marmol.jpg);
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center
+}
+
+.crudedit3{
+    background-image: url(img/marmol.jpg);
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center
+}
