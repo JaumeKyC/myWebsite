@@ -3,7 +3,7 @@ body{
 }
 
 #header{
-    height: 600px;
+    height: 500px;
    /*  display: flex;
     align-items: center; */
     margin: auto;
@@ -41,20 +41,22 @@ body{
     #main2 img{
         margin-top: 75px;
         width: 80%;
-        height: 80%;
     }
 
 
 .crudedit1{
-    background-image: url(img/marmol.jpg);
+   /*  background-image: url(img/create.png); */
     margin: 10px;
     height: 250px;
     display: flex;
     align-items: center
 }
+    .crudedit1 img{
+        margin-top: 0px!important;
+    }
 
 .crudedit2{
-    background-image: url(img/marmol.jpg);
+   /*  background-image: url(img/delete.jpg); */
     margin: 10px;
     height: 250px;
     display: flex;
@@ -62,7 +64,7 @@ body{
 }
 
 .crudedit3{
-    background-image: url(img/marmol.jpg);
+    /* background-image: url(img/edit.png); */
     margin: 10px;
     height: 250px;
     display: flex;
