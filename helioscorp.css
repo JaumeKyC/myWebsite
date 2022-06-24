@@ -2,8 +2,14 @@ body{
     font-family: 'Montserrat', sans-serif; 
 }
 
+div#container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 0% !important;
+}
 #header{
-    height: 500px;
+    height: 600px;
    /*  display: flex;
     align-items: center; */
     margin: auto;
@@ -25,7 +31,7 @@ body{
 
 
 #main2{
-    height: 1500px;
+    height: 100%;
     /*  display: flex;
     align-items: center; */
     margin: auto;
@@ -70,3 +76,22 @@ body{
     display: flex;
     align-items: center
 }
+
+#footer{
+    background-color: rgba(0, 0, 0, 0.841);
+    color: white;
+    text-align: center;
+    padding: 75px;
+    font-size: small;
+}
+.deleteDecorationfooter a{
+    text-decoration: none;
+    color: white;
+}
+#linkedin:hover{
+    color: rgba(10,102,194,255);
+    }
+    
+    #twitter:hover{
+    color: rgba(29,155,240,255);
+    }
