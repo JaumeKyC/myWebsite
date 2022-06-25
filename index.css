@@ -90,8 +90,10 @@ div#main{
     margin: 10px;
     height: 300px;
     display: flex;
-    align-items: center
+    align-items: center;
+    transition: 500ms;
 }
+
 
 .projectedit2{
     background-image: url(img/marmol.jpg);
