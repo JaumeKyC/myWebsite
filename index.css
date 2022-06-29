@@ -230,6 +230,7 @@ div#main {
 }
 
 .submit {
+    border: none!important;
     height: 75%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -246,6 +247,7 @@ div#main {
 }
 
 .submit:hover {
+    border: none!important;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
