@@ -1,91 +1,93 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-size: 100%;
-    background-image: url(img/art2.jpg);
-    
+    background-image: url(img/art7.jpg);
+
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-div#empty{
+div#empty {
     width: 100%;
     height: 500px;
 }
 
-#name{
+#name {
     font-size: 4rem !important;
     color: white;
- }
+}
 
-#subtitle{
+#subtitle {
     margin-top: 0%;
 }
 
-.button{
+.button {
     padding: 1em 2em;
     font-size: 15px;
     color: #000;
     background-color: #fff;
     border: none;
-    
+
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
-  
-  }
-  
-  .button:hover {
-    background-color: rgba(5,166,240,255);
-    box-shadow: 0px 15px 20px #0f47906b;
+
+}
+
+.button:hover {
+    background-color: #001845;
+    box-shadow: 0px 15px 20px #001845a4;
     color: #fff;
     transform: translateY(-7px);
-  }
-  
-  .button:active {
+}
+
+.button:active {
     transform: translateY(-1px);
 }
 
 
-div#container{
+div#container {
     width: 100%;
     height: 100%;
     background-color: white;
     padding: 0% !important;
 }
 
-div#main{
+div#main {
     margin: auto;
     width: 90%;
     height: 100%;
 }
-#arrowSpace{
+
+#arrowSpace {
     padding-top: 70px;
-    font-size:80px
+    font-size: 80px
 }
 
-.deleteDecoration a{
+.deleteDecoration a {
     text-decoration: none;
     color: black;
 }
-.deleteDecorationfooter a{
+
+.deleteDecorationfooter a {
     text-decoration: none;
     color: white;
 }
 
-#projects{
+#projects {
     font-size: 4rem;
     font-weight: 700;
     padding-bottom: 50px;
     padding-top: 90px;
 }
 
-#aboutMe{
+#aboutMe {
     font-size: 4rem;
     font-weight: 700;
     padding-bottom: 20px;
     /* padding-top: 80px; */
 }
 
-.projectedit1{
+.projectedit1 {
     background-image: url(img/marmol.jpg);
     margin: 10px;
     height: 300px;
@@ -95,7 +97,7 @@ div#main{
 }
 
 
-.projectedit2{
+.projectedit2 {
     background-image: url(img/marmol.jpg);
     margin: 10px;
     height: 300px;
@@ -103,7 +105,7 @@ div#main{
     align-items: center
 }
 
-.projectedit3{
+.projectedit3 {
     background-image: url(img/marmol.jpg);
     margin: 10px;
     height: 300px;
@@ -112,98 +114,108 @@ div#main{
 }
 
 
-.technologieshtml{
+.technologieshtml {
     transition: 200ms;
     font-size: 80px;
 }
-.technologieshtml:hover{
+
+.technologieshtml:hover {
     transition: 200ms;
     font-size: 90px;
-    color: rgba(228,77,38,255);
+    color: rgba(228, 77, 38, 255);
 }
-.technologiescss{
+
+.technologiescss {
     transition: 200ms;
     font-size: 80px;
 }
-.technologiescss:hover{
+
+.technologiescss:hover {
     transition: 200ms;
     font-size: 90px;
-    color: rgba(34,119,255,255);
+    color: rgba(34, 119, 255, 255);
 }
-.technologiesjs{
+
+.technologiesjs {
     transition: 200ms;
     font-size: 80px;
 }
-.technologiesjs:hover{
+
+.technologiesjs:hover {
     transition: 200ms;
     font-size: 90px;
-    color: rgba(247,223,30,255);
+    color: rgba(247, 223, 30, 255);
 }
-.technologiesphp{
+
+.technologiesphp {
     transition: 200ms;
     font-size: 80px;
 }
-.technologiesphp:hover{
+
+.technologiesphp:hover {
     transition: 200ms;
     font-size: 90px;
-    color: rgba(119,123,179,255)
+    color: rgba(119, 123, 179, 255)
 }
 
 
 
 
-.techLineTop{
+.techLineTop {
     margin-top: 170px;
 }
 
-.techLineBottom{
-    margin-bottom:50px ;
+.techLineBottom {
+    margin-bottom: 50px;
 }
 
-#aboutMeCont{
-    background-color: rgba(0, 0, 0, 0.841);
+#aboutMeCont {
+    background-color: #003566;
+    /*  rgba(0, 0, 0, 0.841) */
+    opacity: 90%;
     margin-top: 130px;
     margin-bottom: 130px;
     padding-top: 70px;
     padding-bottom: 25px;
     color: white;
-    
-    
+
+
 }
 
 .text-right {
-    text-align: right!important;
-}
-.text-left{
-    text-align: left!important;
+    text-align: right !important;
 }
 
-.abilities{
+.text-left {
+    text-align: left !important;
+}
+
+.abilities {
     font-size: 60px;
 }
 
 
-#linkedin:hover{
-color: rgba(10,102,194,255);
+#linkedin:hover {
+    color: rgba(10, 102, 194, 255);
 }
 
-#twitter:hover{
-color: rgba(29,155,240,255);
+#twitter:hover {
+    color: rgba(29, 155, 240, 255);
 }
 
-#hr3Space{
-margin-top: 150px;
-margin-bottom: 50px;
+#hr3Space {
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 /* FORM */
-#contactMe{
+#contactMe {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
 
-#contactMeTitle{
+#contactMeTitle {
     font-size: 4rem;
     font-weight: 700;
     padding-bottom: 50px;
@@ -216,43 +228,44 @@ margin-bottom: 50px;
     margin: 10px;
     /* font-size: 18px!important; */
 }
-.submit{
-    border: none;
+
+.submit {
     height: 75%;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     /* font-size: 18px!important; */
-    text-decoration: none!important;
-    background-color: rgba(0, 0, 0, 0.841);
-    color: white;
+    text-decoration: none !important;
     width: 70%;
     transition: 600ms;
+    background-color: #001845;
+    box-shadow: 0px 15px 20px #001845a4;
+    color: #fff;
+    transform: translateY(-7px);
+
 }
-.submit:hover{
-    border: none;
+
+.submit:hover {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
-    font-size: 18px!important;
-    text-decoration: none!important;
-    background-color: black;
-    color: white;
+    font-size: 18px !important;
+    text-decoration: none !important;
     width: 35%;
     transition: 500ms;
     height: 70%;
+    background-color: #001845;
+    box-shadow: 0px 15px 20px #001845a4;
+    color: #fff;
+    transform: translateY(-7px);
 }
 
-#footer{
-    background-color: rgba(0, 0, 0, 0.841);
+#footer {
+    background-color: #003566;
+    /*  rgba(0, 0, 0, 0.841) */
+    opacity: 90%;
     color: white;
     text-align: center;
     padding: 75px;
     font-size: small;
 }
-
-
-
-
-  
-
