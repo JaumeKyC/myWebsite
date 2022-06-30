@@ -262,6 +262,45 @@ div#main {
     transform: translateY(-7px);
 }
 
+
+@media screen and (max-width: 1280px) {
+    .submit {
+        border: none!important;
+        height: 75%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        /* font-size: 18px!important; */
+        text-decoration: none !important;
+        width: 70%;
+        transition: 600ms;
+        background-color: #001845;
+        box-shadow: 0px 15px 20px #001845a4;
+        color: #fff;
+        transform: translateY(-7px);
+    
+    }
+    
+    .submit:hover {
+        border: none!important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        font-size: 18px !important;
+        text-decoration: none !important;
+        width: 70%;
+        transition: 500ms;
+        height: 70%;
+        background-color: #001845;
+        box-shadow: 0px 15px 20px #001845a4;
+        color: #fff;
+        transform: translateY(-7px);
+    }
+    
+}
+
+
+
 #footer {
     background-color: #003566;
     /*  rgba(0, 0, 0, 0.841) */
