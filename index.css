@@ -60,12 +60,22 @@ div#main {
 
 #arrowSpace {
     padding-top: 70px;
-    font-size: 80px
+    font-size: 80px;
+    transition: 100ms;
+}
+
+#arrowSpace:hover {
+    transition: 100ms;
+    padding-top: 75px;
+    font-size: 80px;
+   /*  width: 60px;
+    height: 80px; */
+
 }
 
 .deleteDecoration a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 }
 
 .deleteDecorationfooter a {
@@ -230,7 +240,7 @@ div#main {
 }
 
 .submit {
-    border: none!important;
+    border: none !important;
     height: 75%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -247,7 +257,7 @@ div#main {
 }
 
 .submit:hover {
-    border: none!important;
+    border: none !important;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
@@ -265,7 +275,7 @@ div#main {
 
 @media screen and (max-width: 1280px) {
     .submit {
-        border: none!important;
+        border: none !important;
         height: 75%;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -278,11 +288,11 @@ div#main {
         box-shadow: 0px 15px 20px #001845a4;
         color: #fff;
         transform: translateY(-7px);
-    
+
     }
-    
+
     .submit:hover {
-        border: none!important;
+        border: none !important;
         margin-top: 15px;
         margin-bottom: 15px;
         margin-left: 15px;
@@ -296,7 +306,7 @@ div#main {
         color: #fff;
         transform: translateY(-7px);
     }
-    
+
 }
 
 
